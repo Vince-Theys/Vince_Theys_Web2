@@ -26,7 +26,7 @@
 <body>
 
 <header>
-    <h1 class="tittel">Voeg team toe</h1>
+    <h1 class="tittel">voeg team toe</h1>
     <nav>
         <div class="topnav" id="myTopnav">
             <a href="index.jsp">Home</a>

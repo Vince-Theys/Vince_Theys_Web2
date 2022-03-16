@@ -20,7 +20,7 @@
 <body>
 
 <header>
-    <h1 class="tittel">Home</h1>
+    <h1 class="tittel">home</h1>
     <nav>
         <div class="topnav" id="myTopnav">
             <a href="index.jsp" class="active">Home</a>

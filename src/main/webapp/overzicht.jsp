@@ -26,7 +26,7 @@
 <body>
 
 <header>
-    <h1 class="tittel">Overzicht teams</h1>
+    <h1 class="tittel">overzicht teams</h1>
     <nav>
         <div class="topnav" id="myTopnav">
             <a href="index.jsp">Home</a>
