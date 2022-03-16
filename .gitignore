@@ -113,3 +113,9 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/intellij
 # Project exclude paths
 /target/
+
+/out
+
+*.iml
+
+.idea
