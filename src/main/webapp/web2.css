@@ -5,6 +5,7 @@ body {
 
 
 
+
 .topnav {
     background-color: #E00500;
     overflow: hidden;
@@ -15,7 +16,7 @@ body {
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #FFFFFF;
     text-align: center;
     padding: 1em 1em 1em 1em;
     text-decoration: none;
@@ -23,13 +24,13 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #15141E;
-    color: #ddd;
+    color: #FFFFFF;
+    text-decoration: underline;
 }
 
 .topnav a.active {
     background-color: rgba(61, 3, 3, 0.58);
-    color: white;
+    color: #FFFFFF;
 }
 
 .topnav .icon {
@@ -64,11 +65,13 @@ body {
 .tittel {
     color: #FFFFFF;
     text-align: center;
-    margin: 0 0 0.5em 0;
-    background-color: #E00500;
+    margin: 0 0 0 0;
+    background-color: #000000;
     padding: 1em 0 1em 0;
 }
 
-/* input:required {
-    background-color: ;
-}*/
+
+a {
+    text-decoration: none;
+}
+

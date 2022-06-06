@@ -1,4 +1,5 @@
-<%--
+<%@ page import="domain.model.Team" %>
+<%@ page import="domain.db.TeamDB" %><%--
   Created by IntelliJ IDEA.
   User: vincetheys
   Date: 16/03/2022
@@ -26,7 +27,7 @@
 <body>
 
 <header>
-    <h1 class="tittel">overzicht teams</h1>
+    <h1 class="tittel">Overzicht teams</h1>
     <nav>
         <div class="topnav" id="myTopnav">
             <a href="index.jsp">Home</a>
@@ -41,8 +42,17 @@
 
 
 
-
 <main>
+
+    <p>Teamnaam: <%= request.getParameter("teamnaam")%></p>
+    <p>Coureurs: <%= request.getParameter("coureurs")%></p>
+    <p>Powerunit: <%= request.getParameter("powerunit")%></p>
+    <p>WC: <%= request.getParameter("wchamps")%></p>
+    <p>Het team met de meeste kampioenschappen is</p> <%--<%= ((Team)request.getAttribute("meesteKampioenschappen")).getNaam() %></p>--%>
+
+    <a href="voegtoe.jsp">Voeg nieuw team toe</a>
+
+
 
 </main>
 

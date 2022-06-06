@@ -20,7 +20,7 @@
 <body>
 
 <header>
-    <h1 class="tittel">home</h1>
+    <h1 class="tittel">Home</h1>
     <nav>
         <div class="topnav" id="myTopnav">
             <a href="index.jsp" class="active">Home</a>
@@ -40,6 +40,8 @@
     <p>
         Hier kan je een overzicht maken van alle F1-Teams
     </p>
+    <a href="voegtoe.jsp">Klik hier om een team toe te voegen</a>
+
 
 </main>
 

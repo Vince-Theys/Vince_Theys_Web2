@@ -26,7 +26,7 @@
 <body>
 
 <header>
-    <h1 class="tittel">voeg team toe</h1>
+    <h1 class="tittel">Voeg team toe</h1>
     <nav>
         <div class="topnav" id="myTopnav">
             <a href="index.jsp">Home</a>
@@ -44,7 +44,7 @@
 
 <main>
 
-    <form>
+    <form action="Servlet" method="post">
         <label for="teamnaam">Teamnaam:</label><br>
         <input type="text" id="teamnaam" name="teamnaam" required><br>
         <label for="coureurs">Coureurs:</label><br>
@@ -53,8 +53,10 @@
         <input type="text" id="powerunit" name="powerunit" required><br>
         <label for="wchamps">World Championships:</label><br>
         <input type="number" id="wchamps" name="wchamps" required><br>
+
         <input type="submit" value="Voeg Toe">
     </form>
+
 
 </main>
 
